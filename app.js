@@ -37,7 +37,8 @@ var createNewTaskElement=function(taskString){
     deleteButton.classList.add('task-btn')
     
     var deleteButtonImg=document.createElement("img");//delete button image
-    deleteButtonImg.classList.add('task-btn-img')
+    deleteButtonImg.classList.add('task-btn-img');
+    deleteButtonImg.alt = "delete button";
     
     label.innerText=taskString;
     label.className='task';

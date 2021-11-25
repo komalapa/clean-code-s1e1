@@ -39,10 +39,10 @@ body {
   padding: 0px;
 }
 .task-list-item, .task-list-header {
-  list-style:none;
+  list-style: none;
 }
-.task-input,.task-btn{
-  outline:none;
+.task-input,.task-btn {
+  outline: none;
 }
 .task-btn {
   background: none;
@@ -136,14 +136,14 @@ body {
 
 /* Edit Task */
 .task-list .task-list-item .task-input[type=text] {
-  display:none
+  display: none
 }
 
 .task-list .task-list-item.edit-mode .task-input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .task-list .task-list-item.edit-mode .task {
-  display:none;
+  display: none;
 }

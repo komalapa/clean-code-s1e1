@@ -81,8 +81,7 @@
 
 /* Heading */
 .add-form__header,
-.task-list__header,
-.new-task {
+.task-list__header{
   color: #333;
   font-weight: 700;
   font-size: 15px;

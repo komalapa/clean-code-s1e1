@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -53,11 +53,13 @@ body {
 }
 
 .task-input,
-.task-btn {
+.task-btn,
+.add-btn {
   outline: none;
 }
 
-.task-btn {
+.task-btn,
+.add-btn {
   background: none;
   border: 0px;
   color: #888;
@@ -73,7 +75,7 @@ body {
 
 /* Heading */
 .task-list-header,
-.task[for="new-task"] {
+.new-task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -101,7 +103,7 @@ body {
 }
 
 /* New Task */
-.task[for="new-task"] {
+.new-task-header {
   display: block;
   margin: 0 0 20px;
 }

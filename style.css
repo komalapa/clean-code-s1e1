@@ -74,7 +74,8 @@
   cursor: pointer;
 }
 
-.task-list__btn:hover {
+.task-list__btn:hover,
+.add-form__btn:hover {
   color: #3a3a3a;
 }
 
